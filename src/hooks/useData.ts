@@ -2,12 +2,8 @@ import { useEffect, useState } from "react";
 import apiClient from "../services/api-client";
 import { AxiosRequestConfig, CanceledError } from "axios";
 
-interface FetchResponse<T> {
-	count: number;
-	results: T[];
-}
-
-const useData = <T>(
+// This hook has been retired -- to be deleted after the review
+/* const useData = <T>(
 	endpoint: string,
 	requestConfig?: AxiosRequestConfig,
 	deps?: any[]
@@ -45,3 +41,4 @@ const useData = <T>(
 };
 
 export default useData;
+ */
