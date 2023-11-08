@@ -9,7 +9,12 @@ const NavBar = () => {
 	return (
 		<HStack padding="10px">
 			<Link to="/">
-				<Image src={logo} boxSize="70px" padding="10px 0px 10px 10px" />
+				<Image
+					src={logo}
+					width="70px"
+					objectFit="cover"
+					padding="10px 0px 10px 10px"
+				/>
 			</Link>
 			{/* <Heading fontWeight="800" fontSize="2xl" marginRight={3}>
 				GameHub
